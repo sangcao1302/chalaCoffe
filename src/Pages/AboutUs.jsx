@@ -38,8 +38,8 @@ export default function AboutUs() {
             <div className='row'>
                 <div className='col-12 col-sm-12 col-md-12'>
                     <div className='map'>
-                      {/* <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3925.255924995432!2d105.73739947569986!3d10.321391967420666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x310a7d61b18d4e59%3A0xd9a790b2ca575df!2zVsaw4budbiBDaMOgIEzDoA!5e0!3m2!1svi!2s!4v1700902637848!5m2!1svi!2s" className='w-100' height={450} style={{border: 0}} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" title='chalamap'/> */}
-                      <img src="../assets/image/coffechala.png" alt="" />
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3925.255924995432!2d105.73739947569986!3d10.321391967420666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x310a7d61b18d4e59%3A0xd9a790b2ca575df!2zVsaw4budbiBDaMOgIEzDoA!5e0!3m2!1svi!2s!4v1700902637848!5m2!1svi!2s" className='w-100' height={450} style={{border: 0}} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" title='chalamap'/>
+                     
 
                     </div>
                 </div>
