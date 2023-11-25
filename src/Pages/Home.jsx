@@ -12,7 +12,7 @@ export default function Home() {
                                 <h3>About Us</h3>
                                 <h1>We Combine Classics and Modernity</h1>
                                 <p>We appreciate your trust greatly. Our clients choose us and our products because they know we are the best.</p>
-                                <button type="button" class="btn btn-about">Read more</button>
+                                <button type="button" class="btn btn-about mb-5">Read more</button>
                             </div>
                         </div>
                         <div className='col-12 col-sm-6 col-md-6'>
