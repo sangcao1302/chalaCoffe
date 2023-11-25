@@ -34,7 +34,7 @@ export default function Home() {
                     <h3 className='text-center'>We Serve</h3>
                     <div className='text-serve mt-5'>
                         <div className='row'>
-                            <div className='col-12 col-sm-6 col-md-6'>
+                            <div className='col-12 col-sm-6 col-md-6 mb-5'>
                                 <div className='serve-img'>
                                     <div className='img-under'>
                                         <img src="../assets/image/coffee.png" alt="" />
