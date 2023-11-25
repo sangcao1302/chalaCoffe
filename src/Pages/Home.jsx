@@ -31,7 +31,7 @@ export default function Home() {
         </div>
        <div className='container'>
             <div className='serve mt-5'>
-                    <h3 className='text-center'>We serve</h3>
+                    <h3 className='text-center'>We Serve</h3>
                     <div className='text-serve mt-5'>
                         <div className='row'>
                             <div className='col-12 col-sm-6 col-md-6'>
