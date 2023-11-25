@@ -2,8 +2,37 @@ import React from 'react'
 import "../Scss/home.scss"
 export default function Home() {
   return (
-    <div className='container-fluid mt-5'>
-        <div className='container'>
+    <div className='container-fluid mt-5 p-0'>
+        
+        <div id="carouselExampleAutoplaying" className="carousel slide" data-bs-ride="carousel">
+                    <div className="carousel-inner">
+                        <div className="carousel-item active w-100 h-100">
+                           <div className='img'>
+                                <img src="../assets/image/slides1.jpg" style={{height:"960px",maxWidth:"100%",objectFit:"cover"}} alt="" />
+                           </div>
+                        </div>
+                        <div className="carousel-item">
+                            <div className='img'>
+                                <img src="../assets/image/slides2.jpg" style={{height:"960px",maxWidth:"100%",objectFit:"cover"}} alt="" />
+                           </div>
+                        </div>
+                        <div className="carousel-item">
+                            <div className='img'>
+                                <img src="../assets/image/slides3.jpg" style={{height:"960px",maxWidth:"100%",objectFit:"cover"}} alt="" />
+                           </div>
+                        </div>
+                    </div>
+                    <button className="carousel-control-prev fs-1 " type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                        <span className="carousel-control-prev-icon" aria-hidden="true" />
+                        <span className="visually-hidden">Previous</span>
+                    </button>
+                    <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                        <span className="carousel-control-next-icon" aria-hidden="true" />
+                        <span className="visually-hidden">Next</span>
+                    </button>
+                </div>
+        
+        <div className='container mt-5'>
             <div className='row'>
                 <div className='col-12 col-sm-12 col-md-12'>
                     <div className='row'>
@@ -55,7 +84,7 @@ export default function Home() {
                 </div>
        </div>
         <div className='img mt-5'>
-            <h3 className='text-center mb-5'>Image</h3>
+            <h3 className='text-center mb-5'>Memory</h3>
             <div className='img-place'>
                 <div className='row'>
                     <div className='col-12 col-sm-8 col-md-6 p-0'>

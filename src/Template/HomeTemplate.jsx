@@ -7,7 +7,7 @@ export default function HomeTemplate() {
   return (
     <>
         <Header></Header>
-        <div className='content-layout'>
+        <div className='content-layout p-0'>
             <Outlet></Outlet>
         </div>
         <Footer></Footer>

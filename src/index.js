@@ -6,6 +6,7 @@ import { unstable_HistoryRouter as HistoryRouter } from 'react-router-dom';
 import { createBrowserHistory } from "history";
 import { Provider } from "react-redux";
 import Home from './Pages/Home';
+import AboutUs from './Pages/AboutUs';
 
 export const history = createBrowserHistory({window});
 
@@ -16,6 +17,8 @@ root.render(
         <Routes>
           <Route path='' element={<HomeTemplate></HomeTemplate>}>
             <Route index element={<Home></Home>}></Route>
+            <Route path='/home' element={<Home></Home>}></Route>
+            <Route path='/about' element={<AboutUs></AboutUs>}></Route>
           </Route>
         </Routes>
       </HistoryRouter>

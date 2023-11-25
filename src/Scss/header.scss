@@ -2,11 +2,15 @@
 
 .nav-menu{
     height: 100%;
-  
-    .menu-item{
-        margin-left: 3%;
-        
+    .about{
+        text-decoration: none;
+        li{
+            color: black;
+            margin-right: 22px;
+            
+        }
     }
+  
 }
 .logo{
     width: 100%;
@@ -20,8 +24,4 @@
     .menu-item{
         line-height: 50px;
     }
-}
-.prev{
-    background-color: #f9f9f9;
-    color: white;
 }

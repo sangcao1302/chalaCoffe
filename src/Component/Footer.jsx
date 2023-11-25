@@ -37,24 +37,12 @@ export default function Footer() {
              </div>
              <div className='col-12 col-sm-4 col-md-4 mt-5'>
                 <h3 className='text-start'>OPENING HOURS</h3>
-                <div className='d-flex mt-4 justify-content-start'>
+                <div className=''>
                   <div className=''>
-                    <p>Monday</p>
-                    <p>Tuesday</p>
-                    <p>Wednesday</p>
-                    <p>Thursday</p>
-                    <p>Friday</p>
-                    <p>Saturday</p>
-                    <p>Sunday</p>
+                    <p>Monday-Sunday</p>
                   </div>
-                  <div className='mx-2'>
-                   <p>9:00 - 22:00</p>
-                   <p>9:00 - 22:00</p>
-                   <p>9:00 - 22:00</p>
-                   <p>9:00 - 22:00</p>
-                   <p>9:00 - 22:00</p>
-                   <p>9:00 - 22:00</p>
-                   <p>9:00 - 22:00</p>
+                  <div className=''>
+                   <p>9:00AM - 22:00PM</p>
                   </div>
                 </div>
              </div>
