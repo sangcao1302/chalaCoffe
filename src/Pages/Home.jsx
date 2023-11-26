@@ -1,5 +1,6 @@
 import React from 'react'
 import "../Scss/home.scss"
+import { NavLink } from 'react-router-dom'
 export default function Home() {
   return (
     <div className='container-fluid mt-5 p-0'>
@@ -41,7 +42,7 @@ export default function Home() {
                                 <h3>About Us</h3>
                                 <h1>We Combine Classics and Modernity</h1>
                                 <p>We appreciate your trust greatly. Our clients choose us and our products because they know we are the best.</p>
-                                <button type="button" class="btn btn-about mb-5">Read more</button>
+                                <NavLink  className=" btn btn-about mb-5" to={"/about"}>Read more</NavLink>
                             </div>
                         </div>
                         <div className='col-12 col-sm-6 col-md-6'>
@@ -76,7 +77,7 @@ export default function Home() {
                             <div className='col-12 col-sm-6 col-md-6'>
                                 <div className='serve-item'>
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat autem excepturi libero vero dolor odio consequatur nesciunt eveniet repudiandae totam, vitae quas modi nostrum doloremque enim quasi maxime inventore itaque.Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat autem excepturi libero vero dolor odio consequatur nesciunt eveniet repudiandae totam, vitae quas modi nostrum doloremque enim quasi maxime inventore itaque</p>
-                                    <button type="button" class="btn btn-serve">Read more</button>
+                                    <NavLink className="btn btn-serve" to={"/serve"}>Read more</NavLink>
                                 </div>
                             </div>
                         </div>
