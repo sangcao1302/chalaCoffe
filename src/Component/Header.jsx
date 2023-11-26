@@ -18,11 +18,10 @@ export default function Header() {
                     <ul className='nav-menu d-flex fs-5 p-0 align-items-center justify-content-center'>
                         <NavLink to={"/home"}  className="about"><li className='menu-item '>Home</li></NavLink>
                         <NavLink to={"/about"}  className="about"><li className='menu-item '>About Us</li></NavLink>
-                        <NavLink to={"/contact"}  className="about"><li className='menu-item '>Contact</li></NavLink>
                         <NavLink to={"/Serve"}  className="about"><li className='menu-item '>Serve</li></NavLink>
                         <NavLink to={"/Memory"}  className="about"><li className='menu-item '>Memory</li></NavLink>
                         <NavLink to={"/blog"}  className="about"><li className='menu-item '>Blog</li></NavLink>
-
+                        <NavLink to={"/contact"}  className="about"><li className='menu-item '>Contact</li></NavLink>
                     </ul>
                 </div>
             </div>
@@ -72,10 +71,10 @@ export default function Header() {
                       <ul className='menu-reponsive mt-5 fs-5'>
                         <NavLink to={"/home"}  className="about"><li className='menu-item '>Home</li></NavLink>
                         <NavLink to={"/about"}  className="about"><li className='menu-item '>About Us</li></NavLink>
-                        <NavLink to={"/contact"}  className="about"><li className='menu-item '>Contact</li></NavLink>
                         <NavLink to={"/Serve"}  className="about"><li className='menu-item '>Serve</li></NavLink>
                         <NavLink to={"/Memory"}  className="about"><li className='menu-item '>Memory</li></NavLink>
                         <NavLink to={"/blog"}  className="about"><li className='menu-item '>Blog</li></NavLink>
+                        <NavLink to={"/contact"}  className="about"><li className='menu-item '>Contact</li></NavLink>
                       </ul>
                     </div>
                 </div>
