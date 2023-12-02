@@ -11,7 +11,7 @@ export default function Home() {
     }
     var settings = {
        
-        arrows:false,
+        arrows:true,
         touchMove: true,
       
         infinite: true,
