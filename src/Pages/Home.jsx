@@ -1,13 +1,58 @@
 import React from 'react'
 import "../Scss/home.scss"
 import { NavLink} from 'react-router-dom'
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 export default function Home() {
+    
     const handleClick=()=>{
         window.scrollTo({top:"0"})
     }
+    var settings = {
+       
+        arrows:false,
+        touchMove: true,
+      
+        infinite: true,
+        speed: 1500,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        initialSlide: 0,
+        fade:true,
+        swipeToSlide: true,
+        autoplaying:5000,
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              infinite: true,
+              dots: true
+            }
+          },
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              initialSlide: 0
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          }
+        ]
+      }
+    
   return (
     <div className='container-fluid mt-5 p-0'> 
-      <div id="carouselExampleControls" className="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-touch="true">
+      {/* <div id="carouselExampleControls" className="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-touch="true">
             <div className="carousel-inner">
                 <div className="carousel-item active" data-bs-interval={10000}>
                     <img src="../assets/image/slides1.jpg" className="" alt="" style={{height:"800px",objectFit:"cover"}} />
@@ -19,16 +64,28 @@ export default function Home() {
                     <img src="../assets/image/slides3.jpg" className="" alt="" style={{height:"800px",objectFit:"cover"}} />
                 </div>
             </div>
-            <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                <span className="carousel-control-prev-icon" aria-hidden="true" />
+           
+            <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev" data-bs-touch="true">
+                <span className="carousel-control-prev-icon" aria-hidden="false" />
                 <span className="visually-hidden">Previous</span>
             </button>
-            <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next" data-bs-touch="true">
                 <span className="carousel-control-next-icon" aria-hidden="true" />
                 <span className="visually-hidden">Next</span>
             </button>
-        </div>
-        <div className='height'></div>
+        </div> */}
+        <Slider {...settings} className='slide'>
+      <div>
+        <img src="../assets/image/slides1.jpg" className="" alt="" style={{height:"800px",}} />
+      </div>
+      <div>
+        <img src="../assets/image/slides2.jpg" className="" alt="" style={{height:"800px",}} />
+      </div>
+      <div>
+        <img src="../assets/image/slides3.jpg" className="" alt="" style={{height:"800px",}} />
+      </div>
+    </Slider>
+            <div className='height'></div>
         <div className='container mt-5 w-100'>
             <div className='row'>
                 <div className='col-12 col-sm-12 col-md-12'>
