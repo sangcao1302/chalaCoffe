@@ -10,7 +10,7 @@ export default function HomeTemplate() {
         <div className='content-layout p-0'>
             <Outlet></Outlet>
         </div>
-        <Footer></Footer>
+        {/* <Footer></Footer> */}
     </>
   )
 }

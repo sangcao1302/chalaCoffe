@@ -9,19 +9,17 @@ export default function Home() {
     const handleClick=()=>{
         window.scrollTo({top:"0"})
     }
-    var settings = {
+    const settings = {
        
-        arrows:true,
-        touchMove: true,
-      
+        arrows:true,    
         infinite: true,
         speed: 1500,
         slidesToShow: 1,
         slidesToScroll: 1,
-        initialSlide: 0,
         fade:true,
         swipeToSlide: true,
-        autoplaying:5000,
+        autoplay:true,
+        autoplaySpeed: 5000,
         responsive: [
           {
             breakpoint: 1024,
@@ -29,7 +27,7 @@ export default function Home() {
               slidesToShow: 1,
               slidesToScroll: 1,
               infinite: true,
-              dots: true
+              swipeToSlide: true,
             }
           },
           {
@@ -37,14 +35,17 @@ export default function Home() {
             settings: {
               slidesToShow: 1,
               slidesToScroll: 1,
-              initialSlide: 0
+              
+              swipeToSlide: true,
             }
           },
           {
             breakpoint: 480,
             settings: {
               slidesToShow: 1,
-              slidesToScroll: 1
+              slidesToScroll: 1,
+              swipeToSlide: true,
+              swiptouch:true
             }
           }
         ]
@@ -76,17 +77,17 @@ export default function Home() {
         </div> */}
         <Slider {...settings} className='slide'>
       <div>
-        <img src="../assets/image/slides1.jpg" className="" alt="" style={{height:"800px",}} />
+        <img src="../assets/image/slides1.jpg" className="" alt="" style={{height:"800px",objectFit:"cover"}} />
       </div>
       <div>
-        <img src="../assets/image/slides2.jpg" className="" alt="" style={{height:"800px",}} />
+        <img src="../assets/image/slides2.jpg" className="" alt="" style={{height:"800px",objectFit:"cover"}} />
       </div>
       <div>
-        <img src="../assets/image/slides3.jpg" className="" alt="" style={{height:"800px",}} />
+        <img src="../assets/image/slides3.jpg" className="" alt="" style={{height:"800px",objectFit:"cover"}} />
       </div>
     </Slider>
-            <div className='height'></div>
-        <div className='container mt-5 w-100'>
+    <div className='section mt-5'>
+    <div className='container mt-5 w-100'>
             <div className='row'>
                 <div className='col-12 col-sm-12 col-md-12'>
                     <div className='row'>
@@ -185,6 +186,8 @@ export default function Home() {
                 </div>
             </div>
         </div>
+    </div>
+        
     </div>
   )
 }

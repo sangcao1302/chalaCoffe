@@ -12,6 +12,7 @@ export default function Blog() {
             <img src="./assets/image/blog2.png" className='mt-4' style={{objectFit:"cover"}} alt="" />
         </div>
     </div>
+    
 </div>
   )
 }

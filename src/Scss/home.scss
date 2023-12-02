@@ -26,8 +26,10 @@
   }
  }
 }
-.height{
-  height: 789px;
+.section{
+  position: absolute;
+  top:90%;
+  overflow: hidden;
 }
 .image-stack {
     display: grid;
@@ -148,6 +150,11 @@
   }
   .height{
     height: 650px;
+  }
+  .section{
+    position: absolute;
+    top:760px;
+    overflow: hidden;
   }
 }
 @media screen and (min-width:800px) and (max-width: 1024px){
