@@ -7,16 +7,16 @@ export default function Home() {
     }
   return (
     <div className='container-fluid mt-5 p-0'> 
-      <div id="carouselExampleControls" className="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div id="carouselExampleControls" className="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-touch="true">
             <div className="carousel-inner">
                 <div className="carousel-item active" data-bs-interval={10000}>
-                    <img src="../assets/image/slides1.jpg" className="d-block w-100" alt="" style={{height:"800px",objectFit:"cover"}} />
+                    <img src="../assets/image/slides1.jpg" className="" alt="" style={{height:"800px",objectFit:"cover"}} />
                 </div>
                 <div className="carousel-item" data-bs-interval={10000}>
-                    <img src="../assets/image/slides2.jpg" className="d-block w-100" alt="" style={{height:"800px",objectFit:"cover"}} />
+                    <img src="../assets/image/slides2.jpg" className="" alt="" style={{height:"800px",objectFit:"cover"}} />
                 </div>
                 <div className="carousel-item " data-bs-interval={10000}>
-                    <img src="../assets/image/slides3.jpg" className="d-block w-100" alt="" style={{height:"800px",objectFit:"cover"}} />
+                    <img src="../assets/image/slides3.jpg" className="" alt="" style={{height:"800px",objectFit:"cover"}} />
                 </div>
             </div>
             <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
