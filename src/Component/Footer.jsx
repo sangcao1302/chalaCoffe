@@ -13,8 +13,8 @@ export default function Footer() {
                      <p className='mt-2 d-flex' >Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, modi a. Atque quia aut, repudiandae ipsa, exercitationem delectus quasi aliquam, minus itaque consequatur omnis laboriosam. Corrupti, at? Iure, aspernatur provident?</p>
                   </div>
                   <div className='contact fs-5'>
-                    <span><i class="fab fa-facebook"></i></span>
-                    <span className='mx-3'><i class="fab fa-instagram"></i></span>
+                    <span><i className="fab fa-facebook"></i></span>
+                    <span className='mx-3'><i className="fab fa-instagram"></i></span>
                     
                   </div>
                 </div>  

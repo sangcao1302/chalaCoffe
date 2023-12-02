@@ -3,11 +3,11 @@ import "../Scss/about.scss"
 export default function AboutUs() {
   return (
     <div className='container-fluid p-0'>
-        <div className='img-contact d-flex justify-content-center align-items-center'>
-           <h1>About Us</h1>
-        </div>
-        <div className='container'>
-            <div className='row mt-5'>
+        <div className='img-about d-flex justify-content-center align-items-center'>
+             <h1>About Us</h1>
+        </div>   
+        <div className='container mt-5'>
+            <div className='row'>
                 <div className='col-12 col-sm-6 col-md-6'>
                     <p>
                         Thành phố Sa Đéc là thành phố trung tâm của tỉnh Đồng Tháp, nằm ở phía Nam của vùng Đồng bằng sông Cửu Long. Sa Đéc có diện tích tự nhiên khoảng 200 km2, dân số khoảng 200.000 người.Sa Đéc nổi tiếng với những cánh đồng lúa xanh mướt, những con kênh rạch uốn lượn giữa ruộng lúa. Nền kinh tế chủ yếu dựa trên nông nghiệp, đặc biệt là trồng lúa và nuôi trồng thủy sản. Bên cạnh đó, thương mại và dịch vụ cũng đang phát triển mạnh mẽ.

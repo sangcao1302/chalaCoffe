@@ -8,8 +8,7 @@
    background-position: center center;
    
    h1{
-    text-align: center;
-    
+    text-align: center;  
     color: orange;
     font-weight: bolder;
    }
@@ -18,5 +17,11 @@
 .container{
     p{
         font-size: 18px;
+    }
+}
+.about{
+    h1{
+        color:orange;
+        text-align: center;
     }
 }

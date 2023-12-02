@@ -24,14 +24,17 @@
     }
  }
  .glamping{
-    background-image: url('../../public/assets/image/glamping.jpg');
-    height: 900px;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    h1{
-        color:orange;
-        text-align: center;
-        font-weight: bold;
-    }
+   position: relative;
+   .text-glamping{
+      position: absolute;
+      top: 50%;
+      left: 0;
+      right: 0;
+      h1{
+         color:orange;
+         text-align: center;
+         font-weight: bold;
+     }
+   }
+   
  }

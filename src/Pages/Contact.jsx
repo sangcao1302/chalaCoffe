@@ -24,7 +24,7 @@ export default function Contact() {
                         <hr />
                         </div>
                         <div className="mb-3">    
-                            <span className='d-flex '><i class="fa fa-pen mt-3"></i><textarea className="w-100" placeholder='How can we help you?' rows="5" /></span>
+                            <span className='d-flex '><i className="fa fa-pen mt-3"></i><textarea className="w-100" placeholder='How can we help you?' rows="5" /></span>
                             <hr />
                         </div>
                        

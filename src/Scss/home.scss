@@ -1,10 +1,30 @@
 @import "./All.scss";
+.carousel-item {
+  transition: transform 3s ease-in-out;
+}
+.carousel-fade .active.carousel-item-start,
+.carousel-fade .active.carousel-item-end {
+  transition: opacity 0s 3s;
+}
 .container-fluid{
   overflow: hidden;
+ .slide{
+ 
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 1;
+  top:8%;
+ }
+}
+.height{
+  height: 789px;
 }
 .image-stack {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
+    position: relative;
   }
   
   .image-stack__item--bottom {
@@ -24,7 +44,6 @@
     display: block;
   }
 .text-about{
-
     .btn-about{
         background-color: #Efa758;
         color:white;
@@ -53,6 +72,7 @@
   .serve-img{
     display: grid;
     grid-template-columns: repeat(12,1fr);
+    position: relative;
     .img-under{
       grid-row: 1;
       grid-column: -1 / 6;
@@ -104,5 +124,34 @@
         }
       }
     }  
+  }
+}
+@media screen and (max-width: 768px){
+  .container-fluid{
+    overflow: hidden;
+   .slide{
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: -1;
+    top:0;
+   }
+  }
+  .height{
+    height: 650px;
+  }
+}
+@media screen and (min-width:800px) and (max-width: 1024px){
+  .container-fluid{
+    overflow: hidden;
+   .slide{
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: -1;
+    top:4%;
+   }
   }
 }

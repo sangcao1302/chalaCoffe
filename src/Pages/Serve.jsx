@@ -4,7 +4,7 @@ export default function Serve() {
   return (
     <div className='container-fluid p-0'>
          <div className='img-serve d-flex justify-content-center align-items-center'>
-           <h1>Serve</h1>
+           <h1>We Serve</h1>
         </div> 
         <div className='container mt-5'>
             <div className='row'>
@@ -93,8 +93,11 @@ export default function Serve() {
             <h1 className='text-center' style={{color:"orange"}}>Glamping</h1>
         </div>
         <div className='container-fluid p-0'>
-            <div className='glamping d-flex align-items-center justify-content-center mt-5'>
-                <h1>Comming Soon</h1>
+            <div className='glamping'>
+                <img src="../assets/image/glamping.jpg" alt="" />
+                <div className='text-glamping'>
+                    <h1>Comming Soon</h1>
+                </div>
             </div>
         </div>
     </div>
