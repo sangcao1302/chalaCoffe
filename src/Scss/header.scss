@@ -13,14 +13,17 @@
 }
 .logo{
     width: 100%;
-    
+    .logo-menu{
+        max-width: 50%;
+    }
    .logo-item{
     position: absolute;
-    top: -4%;
+    top:-50px;
+    z-index: 100;
     left: 44%;
-    z-index: 2;
         img{
             max-width: 45%;  
+            
         }
    }
   
@@ -39,17 +42,29 @@
     
 }
 @media screen and (max-width: 768px){
-   
-    .logo-mobile-item{
-        z-index: 1;
-       img{
-            max-width: 50%;
+
+.mobile-header{
+    position:fixed;
+    z-index: 999;
+    bottom:-10px;
+    background-color:whitesmoke;
+    .logo-mobile{   
+        .logo-mobile-item{
+         
+           img{
+                max-width:50%;
+           }
+        }
        }
-    }
-  
+}
 }
 @media screen and (max-width: 768px) and (min-width:768px){
       .btn-mobile{
-        margin-top: 12%;
+        margin-top: 8%;
     }
+}
+@media screen and (max-width: 280px) and (min-width:280px){
+    .btn-mobile{
+      margin-top: -2px;
+  }
 }

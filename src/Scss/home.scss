@@ -9,32 +9,21 @@
 .container-fluid{
   overflow: hidden;
  .slide{
- 
-  position: absolute;
-  left: 0;
-  right: 0;
-  width: 100%;
-  z-index: 1;
-  top:8%;
- 
+
   .slick-next{
     right:25px
   }
+ 
   .slick-prev{
     left: 2%;
     z-index: 100;
   }
  }
 }
-.section{
-  position: absolute;
-  top:90%;
-  overflow: hidden;
-}
+
 .image-stack {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    position: relative;
   }
   
   .image-stack__item--bottom {
@@ -82,7 +71,6 @@
   .serve-img{
     display: grid;
     grid-template-columns: repeat(12,1fr);
-    position: relative;
     .img-under{
       grid-row: 1;
       grid-column: -1 / 6;
@@ -139,34 +127,12 @@
 @media screen and (max-width: 768px){
   .container-fluid{
     overflow: hidden;
-   .slide{
-    position: absolute;
-    left: 0;
-    right: 0;
-    width: 100%;
-    z-index: -1;
-    top:0;
-   }
   }
-  .height{
-    height: 650px;
-  }
-  .section{
-    position: absolute;
-    top:760px;
-    overflow: hidden;
-  }
+
+ 
 }
 @media screen and (min-width:800px) and (max-width: 1024px){
   .container-fluid{
     overflow: hidden;
-   .slide{
-    position: absolute;
-    left: 0;
-    right: 0;
-    width: 100%;
-    z-index: -1;
-    top:4%;
-   }
   }
 }

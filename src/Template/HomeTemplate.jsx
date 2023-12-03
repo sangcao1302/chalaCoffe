@@ -7,10 +7,10 @@ export default function HomeTemplate() {
   return (
     <>
         <Header></Header>
-        <div className='content-layout p-0'>
+        <div className='content-layout p-0' style={{minHeight:"100vh"}}>
             <Outlet></Outlet>
         </div>
-        {/* <Footer></Footer> */}
+        <Footer></Footer>
     </>
   )
 }
